@@ -1,0 +1,15 @@
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\bin\Debug\net8.0\Controladora.deps.json
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\bin\Debug\net8.0\Controladora.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\bin\Debug\net8.0\Controladora.pdb
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\bin\Debug\net8.0\Modelo.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\bin\Debug\net8.0\Modelo.pdb
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.csproj.AssemblyReference.cache
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.AssemblyInfoInputs.cache
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.AssemblyInfo.cs
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.csproj.CoreCompileInputs.cache
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controla.1EE7A4DA.Up2Date
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\refint\Controladora.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.pdb
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\ref\Controladora.dll

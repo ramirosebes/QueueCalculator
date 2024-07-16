@@ -1,0 +1,11 @@
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\bin\Debug\net8.0\Modelo.deps.json
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\bin\Debug\net8.0\Modelo.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\bin\Debug\net8.0\Modelo.pdb
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfoInputs.cache
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\Modelo.AssemblyInfo.cs
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\Modelo.csproj.CoreCompileInputs.cache
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\Modelo.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\refint\Modelo.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\Modelo.pdb
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Modelo\obj\Debug\net8.0\ref\Modelo.dll
