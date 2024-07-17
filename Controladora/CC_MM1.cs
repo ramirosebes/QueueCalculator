@@ -4,91 +4,91 @@ namespace Controladora
 {
     public class CC_MM1
     {
-        private Modelo.MM1 mm1 = new Modelo.MM1(0, 0, 0);
+        private Modelo.MM1 MM1 = new Modelo.MM1(0, 0, 0);
 
-        public CC_MM1(double lambda, double mu, int n)
+        public CC_MM1(double Lambda, double Mu, int N)
         {
-            mm1.Lambda = lambda;
-            mm1.Mu = mu;
-            mm1.N = n;
-            mm1.Ro = lambda/mu;
+            MM1.Lambda = Lambda;
+            MM1.Mu = Mu;
+            MM1.N = N;
+            MM1.Ro = Lambda / Mu;
         }
 
         public double CalcularRo()
         {
-            mm1.Ro = mm1.Lambda / mm1.Mu;
-            return mm1.Ro;
+            MM1.Ro = MM1.Lambda / MM1.Mu;
+            return MM1.Ro;
         }
 
         public double CalcularLq()
         {
-            mm1.Lq = Math.Pow(mm1.Lambda, 2) / (mm1.Mu * (mm1.Mu - mm1.Lambda));
-            return mm1.Lq;
+            MM1.Lq = Math.Pow(MM1.Lambda, 2) / (MM1.Mu * (MM1.Mu - MM1.Lambda));
+            return MM1.Lq;
         }
 
         public double CalcularLs()
         {
-            mm1.Ls = mm1.Lambda / (mm1.Mu - mm1.Lambda);
-            return mm1.Ls;
+            MM1.Ls = MM1.Lambda / (MM1.Mu - MM1.Lambda);
+            return MM1.Ls;
         }
 
         public double CalcularWq()
         {
-            mm1.Wq = mm1.Lambda / (mm1.Mu * (mm1.Mu - mm1.Lambda));
-            return mm1.Wq;
+            MM1.Wq = MM1.Lambda / (MM1.Mu * (MM1.Mu - MM1.Lambda));
+            return MM1.Wq;
         }
 
         public double CalcularWs()
         {
-            mm1.Ws = 1 / (mm1.Mu - mm1.Lambda);
-            return mm1.Ws;
+            MM1.Ws = 1 / (MM1.Mu - MM1.Lambda);
+            return MM1.Ws;
         }
 
         public double CalcularP0()
         {
-            mm1.P0 = 1 - mm1.Ro;
-            return mm1.P0;
+            MM1.P0 = 1 - MM1.Ro;
+            return MM1.P0;
         }
 
         public double CalcularPns()
         {
-            mm1.Pns = (1 - mm1.Ro) * Math.Pow(mm1.Ro, mm1.N);
-            //mm1.Pns = (1 - (mm1.Lambda / mm1.Mu)) * Math.Pow((mm1.Lambda / mm1.Mu), mm1.N);
-            return mm1.Pns;
+            MM1.Pns = (1 - MM1.Ro) * Math.Pow(MM1.Ro, MM1.N);
+            //MM1.Pns = (1 - (MM1.Lambda / MM1.Mu)) * Math.Pow((MM1.Lambda / MM1.Mu), MM1.N);
+            return MM1.Pns;
 
         }
 
         public double CalcularPnq()
         {
             //Revisar
-            mm1.Pnq = (1 - mm1.Ro) * Math.Pow(mm1.Ro, mm1.N + 1);
-            //mm1.Pnq = (1 - (mm1.Lambda / mm1.Mu)) * Math.Pow((mm1.Lambda / mm1.Mu), mm1.N + 1);
-            return mm1.Pnq;
+            //Segundo la calculadora de internet es igual Pns
+            MM1.Pnq = (1 - MM1.Ro) * Math.Pow(MM1.Ro, MM1.N + 1);
+            //MM1.Pnq = (1 - (MM1.Lambda / MM1.Mu)) * Math.Pow((MM1.Lambda / MM1.Mu), MM1.N + 1);
+            return MM1.Pnq;
         }
 
         public double CalcularPans()
         {
             double sum = 0;
-            for (int i = 0; i < mm1.N; i++)
+            for (int i = 0; i < MM1.N; i++)
             {
-                sum += (1 - mm1.Ro) * Math.Pow(mm1.Ro, i);
-                //sum += (1 - (mm1.Lambda / mm1.Mu)) * Math.Pow((mm1.Lambda / mm1.Mu), i);
+                sum += (1 - MM1.Ro) * Math.Pow(MM1.Ro, i);
+                //sum += (1 - (MM1.Lambda / MM1.Mu)) * Math.Pow((MM1.Lambda / MM1.Mu), i);
             }
-            mm1.Pans = 1 - sum;
-            return mm1.Pans;
+            MM1.Pans = 1 - sum;
+            return MM1.Pans;
         }
 
         public double CalcularPanq()
         {
-            //Revisar
             double sum = 0;
-            for (int i = 0; i < mm1.N; i++)
+            for (int i = 0; i < MM1.N + 1; i++)
             {
-                sum += (1 - mm1.Ro) * Math.Pow(mm1.Ro, i + 1);
-                //sum += (1 - (mm1.Lambda / mm1.Mu)) * Math.Pow((mm1.Lambda / mm1.Mu), i + 1);
+                sum += (1 - MM1.Ro) * Math.Pow(MM1.Ro, i);
+                //sum += (1 - (MM1.Lambda / MM1.Mu)) * Math.Pow((MM1.Lambda / MM1.Mu), i + 1);
             }
-            mm1.Panq = 1 - sum;
-            return mm1.Panq;
+            MM1.Panq = 1 - sum;
+            return MM1.Panq;
         }
     }
 }

@@ -13,3 +13,4 @@ D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaC
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\refint\Controladora.dll
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.pdb
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\ref\Controladora.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Controladora\obj\Debug\net8.0\Controladora.sourcelink.json

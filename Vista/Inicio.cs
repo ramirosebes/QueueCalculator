@@ -30,5 +30,13 @@ namespace Vista
                 var resultado = modal.ShowDialog();
             }
         }
+
+        private void mM2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (var modal = new mdMM1N())
+            {
+                var resultado = modal.ShowDialog();
+            }
+        }
     }
 }

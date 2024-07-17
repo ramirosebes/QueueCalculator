@@ -107,61 +107,64 @@
             panelMM1.Controls.Add(textBoxLambda);
             panelMM1.Location = new Point(12, 12);
             panelMM1.Name = "panelMM1";
-            panelMM1.Size = new Size(576, 515);
+            panelMM1.Size = new Size(258, 486);
             panelMM1.TabIndex = 0;
             // 
             // labelClientes
             // 
             labelClientes.AutoSize = true;
-            labelClientes.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelClientes.Location = new Point(3, 178);
+            labelClientes.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelClientes.Location = new Point(3, 177);
             labelClientes.Name = "labelClientes";
-            labelClientes.Size = new Size(108, 24);
+            labelClientes.Size = new Size(98, 22);
             labelClientes.TabIndex = 11;
             labelClientes.Text = "N clientes:";
             // 
             // textBoxN
             // 
             textBoxN.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxN.Location = new Point(3, 205);
+            textBoxN.Location = new Point(3, 204);
             textBoxN.Name = "textBoxN";
-            textBoxN.Size = new Size(570, 29);
-            textBoxN.TabIndex = 10;
+            textBoxN.Size = new Size(250, 29);
+            textBoxN.TabIndex = 3;
             // 
             // labelMu
             // 
             labelMu.AutoSize = true;
-            labelMu.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelMu.Location = new Point(3, 119);
+            labelMu.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelMu.Location = new Point(3, 118);
             labelMu.Name = "labelMu";
-            labelMu.Size = new Size(187, 24);
+            labelMu.Size = new Size(168, 22);
             labelMu.TabIndex = 9;
             labelMu.Text = "μ Tasa de servicio:";
             // 
             // textBoxMu
             // 
             textBoxMu.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxMu.Location = new Point(3, 146);
+            textBoxMu.Location = new Point(3, 145);
             textBoxMu.Name = "textBoxMu";
-            textBoxMu.Size = new Size(570, 29);
-            textBoxMu.TabIndex = 8;
+            textBoxMu.Size = new Size(250, 29);
+            textBoxMu.TabIndex = 2;
             // 
             // buttonCalcular
             // 
-            buttonCalcular.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonCalcular.Location = new Point(194, 240);
+            buttonCalcular.BackColor = Color.FromArgb(64, 64, 64);
+            buttonCalcular.FlatStyle = FlatStyle.Flat;
+            buttonCalcular.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonCalcular.ForeColor = SystemColors.ControlLightLight;
+            buttonCalcular.Location = new Point(69, 239);
             buttonCalcular.Name = "buttonCalcular";
-            buttonCalcular.Size = new Size(160, 30);
-            buttonCalcular.TabIndex = 7;
+            buttonCalcular.Size = new Size(120, 32);
+            buttonCalcular.TabIndex = 4;
             buttonCalcular.Text = "Calcular";
-            buttonCalcular.UseVisualStyleBackColor = true;
+            buttonCalcular.UseVisualStyleBackColor = false;
             buttonCalcular.Click += buttonCalcular_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(223, 13);
+            label2.Location = new Point(84, 13);
             label2.Name = "label2";
             label2.Size = new Size(87, 32);
             label2.TabIndex = 2;
@@ -170,20 +173,21 @@
             // labelLambda
             // 
             labelLambda.AutoSize = true;
-            labelLambda.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelLambda.Location = new Point(3, 60);
+            labelLambda.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelLambda.Location = new Point(3, 59);
             labelLambda.Name = "labelLambda";
-            labelLambda.Size = new Size(179, 24);
+            labelLambda.Size = new Size(162, 22);
             labelLambda.TabIndex = 1;
             labelLambda.Text = "λ Tasa de llegada:";
             // 
             // textBoxLambda
             // 
+            textBoxLambda.BorderStyle = BorderStyle.FixedSingle;
             textBoxLambda.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxLambda.Location = new Point(3, 87);
+            textBoxLambda.Location = new Point(3, 86);
             textBoxLambda.Name = "textBoxLambda";
-            textBoxLambda.Size = new Size(570, 29);
-            textBoxLambda.TabIndex = 0;
+            textBoxLambda.Size = new Size(250, 29);
+            textBoxLambda.TabIndex = 1;
             // 
             // panelResultados
             // 
@@ -200,9 +204,9 @@
             panelResultados.Controls.Add(groupBox2);
             panelResultados.Controls.Add(groupBox6);
             panelResultados.Controls.Add(labelResultados);
-            panelResultados.Location = new Point(596, 12);
+            panelResultados.Location = new Point(276, 12);
             panelResultados.Name = "panelResultados";
-            panelResultados.Size = new Size(576, 515);
+            panelResultados.Size = new Size(576, 486);
             panelResultados.TabIndex = 8;
             // 
             // groupBox1
@@ -210,7 +214,7 @@
             groupBox1.Controls.Add(labelLqDescripcion);
             groupBox1.Controls.Add(labelLqValor);
             groupBox1.Controls.Add(labelLq);
-            groupBox1.Location = new Point(291, 318);
+            groupBox1.Location = new Point(291, 306);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(250, 80);
             groupBox1.TabIndex = 11;
@@ -230,20 +234,19 @@
             // labelLqValor
             // 
             labelLqValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelLqValor.AutoSize = true;
             labelLqValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelLqValor.Location = new Point(119, 19);
+            labelLqValor.Location = new Point(112, 19);
             labelLqValor.Name = "labelLqValor";
             labelLqValor.Size = new Size(66, 18);
             labelLqValor.TabIndex = 1;
-            labelLqValor.Text = "0.50000";
+            labelLqValor.Text = "0.00000";
             // 
             // labelLq
             // 
             labelLq.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelLq.AutoSize = true;
             labelLq.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelLq.Location = new Point(62, 11);
+            labelLq.Location = new Point(77, 11);
             labelLq.Name = "labelLq";
             labelLq.Size = new Size(43, 29);
             labelLq.TabIndex = 0;
@@ -254,7 +257,7 @@
             groupBox8.Controls.Add(labelLsDescripcion);
             groupBox8.Controls.Add(labelLsValor);
             groupBox8.Controls.Add(labelLs);
-            groupBox8.Location = new Point(35, 318);
+            groupBox8.Location = new Point(35, 306);
             groupBox8.Name = "groupBox8";
             groupBox8.Size = new Size(250, 80);
             groupBox8.TabIndex = 10;
@@ -274,20 +277,19 @@
             // labelLsValor
             // 
             labelLsValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelLsValor.AutoSize = true;
             labelLsValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelLsValor.Location = new Point(108, 19);
             labelLsValor.Name = "labelLsValor";
             labelLsValor.Size = new Size(66, 18);
             labelLsValor.TabIndex = 1;
-            labelLsValor.Text = "0.50000";
+            labelLsValor.Text = "0.00000";
             // 
             // labelLs
             // 
             labelLs.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelLs.AutoSize = true;
             labelLs.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelLs.Location = new Point(62, 11);
+            labelLs.Location = new Point(76, 11);
             labelLs.Name = "labelLs";
             labelLs.Size = new Size(40, 29);
             labelLs.TabIndex = 0;
@@ -298,7 +300,7 @@
             groupBox4.Controls.Add(labelP0Descripcion);
             groupBox4.Controls.Add(labelP0Valor);
             groupBox4.Controls.Add(labelP0);
-            groupBox4.Location = new Point(291, 60);
+            groupBox4.Location = new Point(291, 48);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(250, 80);
             groupBox4.TabIndex = 9;
@@ -308,7 +310,7 @@
             // 
             labelP0Descripcion.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelP0Descripcion.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelP0Descripcion.Location = new Point(6, 40);
+            labelP0Descripcion.Location = new Point(6, 37);
             labelP0Descripcion.Name = "labelP0Descripcion";
             labelP0Descripcion.Size = new Size(238, 33);
             labelP0Descripcion.TabIndex = 2;
@@ -318,20 +320,19 @@
             // labelP0Valor
             // 
             labelP0Valor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelP0Valor.AutoSize = true;
             labelP0Valor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelP0Valor.Location = new Point(119, 19);
+            labelP0Valor.Location = new Point(115, 19);
             labelP0Valor.Name = "labelP0Valor";
             labelP0Valor.Size = new Size(66, 18);
             labelP0Valor.TabIndex = 1;
-            labelP0Valor.Text = "0.50000";
+            labelP0Valor.Text = "0.00000";
             // 
             // labelP0
             // 
             labelP0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelP0.AutoSize = true;
             labelP0.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelP0.Location = new Point(62, 11);
+            labelP0.Location = new Point(79, 11);
             labelP0.Name = "labelP0";
             labelP0.Size = new Size(45, 29);
             labelP0.TabIndex = 0;
@@ -342,7 +343,7 @@
             groupBox9.Controls.Add(labelWqDescripcion);
             groupBox9.Controls.Add(labelWqValor);
             groupBox9.Controls.Add(labelWq);
-            groupBox9.Location = new Point(291, 404);
+            groupBox9.Location = new Point(291, 392);
             groupBox9.Name = "groupBox9";
             groupBox9.Size = new Size(250, 80);
             groupBox9.TabIndex = 9;
@@ -362,20 +363,19 @@
             // labelWqValor
             // 
             labelWqValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelWqValor.AutoSize = true;
             labelWqValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelWqValor.Location = new Point(119, 19);
+            labelWqValor.Location = new Point(112, 19);
             labelWqValor.Name = "labelWqValor";
             labelWqValor.Size = new Size(66, 18);
             labelWqValor.TabIndex = 1;
-            labelWqValor.Text = "0.50000";
+            labelWqValor.Text = "0.00000";
             // 
             // labelWq
             // 
             labelWq.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelWq.AutoSize = true;
             labelWq.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelWq.Location = new Point(62, 11);
+            labelWq.Location = new Point(66, 11);
             labelWq.Name = "labelWq";
             labelWq.Size = new Size(54, 29);
             labelWq.TabIndex = 0;
@@ -386,7 +386,7 @@
             groupBox7.Controls.Add(labelRoDescripcion);
             groupBox7.Controls.Add(labelRoValor);
             groupBox7.Controls.Add(labelRo);
-            groupBox7.Location = new Point(35, 60);
+            groupBox7.Location = new Point(35, 48);
             groupBox7.Name = "groupBox7";
             groupBox7.Size = new Size(250, 80);
             groupBox7.TabIndex = 8;
@@ -406,20 +406,19 @@
             // labelRoValor
             // 
             labelRoValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelRoValor.AutoSize = true;
             labelRoValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelRoValor.Location = new Point(119, 19);
+            labelRoValor.Location = new Point(111, 19);
             labelRoValor.Name = "labelRoValor";
             labelRoValor.Size = new Size(66, 18);
             labelRoValor.TabIndex = 1;
-            labelRoValor.Text = "0.50000";
+            labelRoValor.Text = "0.00000";
             // 
             // labelRo
             // 
             labelRo.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelRo.AutoSize = true;
             labelRo.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelRo.Location = new Point(62, 11);
+            labelRo.Location = new Point(85, 11);
             labelRo.Name = "labelRo";
             labelRo.Size = new Size(33, 29);
             labelRo.TabIndex = 0;
@@ -430,7 +429,7 @@
             groupBox10.Controls.Add(labelWsDescripcion);
             groupBox10.Controls.Add(labelWsValor);
             groupBox10.Controls.Add(labelWs);
-            groupBox10.Location = new Point(35, 404);
+            groupBox10.Location = new Point(35, 392);
             groupBox10.Name = "groupBox10";
             groupBox10.Size = new Size(250, 80);
             groupBox10.TabIndex = 8;
@@ -450,20 +449,19 @@
             // labelWsValor
             // 
             labelWsValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelWsValor.AutoSize = true;
             labelWsValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelWsValor.Location = new Point(119, 19);
             labelWsValor.Name = "labelWsValor";
             labelWsValor.Size = new Size(66, 18);
             labelWsValor.TabIndex = 1;
-            labelWsValor.Text = "0.50000";
+            labelWsValor.Text = "0.00000";
             // 
             // labelWs
             // 
             labelWs.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelWs.AutoSize = true;
             labelWs.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelWs.Location = new Point(62, 11);
+            labelWs.Location = new Point(75, 11);
             labelWs.Name = "labelWs";
             labelWs.Size = new Size(51, 29);
             labelWs.TabIndex = 0;
@@ -474,7 +472,7 @@
             groupBox3.Controls.Add(labelPnqDescripcion);
             groupBox3.Controls.Add(labelPnqValor);
             groupBox3.Controls.Add(labelPnq);
-            groupBox3.Location = new Point(291, 146);
+            groupBox3.Location = new Point(291, 134);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(250, 80);
             groupBox3.TabIndex = 7;
@@ -494,20 +492,19 @@
             // labelPnqValor
             // 
             labelPnqValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelPnqValor.AutoSize = true;
             labelPnqValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelPnqValor.Location = new Point(119, 19);
             labelPnqValor.Name = "labelPnqValor";
             labelPnqValor.Size = new Size(66, 18);
             labelPnqValor.TabIndex = 1;
-            labelPnqValor.Text = "0.50000";
+            labelPnqValor.Text = "0.00000";
             // 
             // labelPnq
             // 
             labelPnq.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelPnq.AutoSize = true;
             labelPnq.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPnq.Location = new Point(54, 11);
+            labelPnq.Location = new Point(68, 11);
             labelPnq.Name = "labelPnq";
             labelPnq.Size = new Size(59, 29);
             labelPnq.TabIndex = 0;
@@ -518,7 +515,7 @@
             groupBox5.Controls.Add(labelPnsDescripcion);
             groupBox5.Controls.Add(labelPnsValor);
             groupBox5.Controls.Add(label1Pns);
-            groupBox5.Location = new Point(35, 146);
+            groupBox5.Location = new Point(35, 134);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(250, 80);
             groupBox5.TabIndex = 6;
@@ -538,20 +535,19 @@
             // labelPnsValor
             // 
             labelPnsValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelPnsValor.AutoSize = true;
             labelPnsValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelPnsValor.Location = new Point(108, 19);
+            labelPnsValor.Location = new Point(119, 19);
             labelPnsValor.Name = "labelPnsValor";
             labelPnsValor.Size = new Size(66, 18);
             labelPnsValor.TabIndex = 1;
-            labelPnsValor.Text = "0.50000";
+            labelPnsValor.Text = "0.00000";
             // 
             // label1Pns
             // 
             label1Pns.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1Pns.AutoSize = true;
             label1Pns.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1Pns.Location = new Point(46, 11);
+            label1Pns.Location = new Point(71, 11);
             label1Pns.Name = "label1Pns";
             label1Pns.Size = new Size(56, 29);
             label1Pns.TabIndex = 0;
@@ -562,7 +558,7 @@
             groupBox2.Controls.Add(labelPanqDescripcion);
             groupBox2.Controls.Add(labelPanqValor);
             groupBox2.Controls.Add(labelPanq);
-            groupBox2.Location = new Point(291, 232);
+            groupBox2.Location = new Point(291, 220);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(250, 80);
             groupBox2.TabIndex = 5;
@@ -582,20 +578,19 @@
             // labelPanqValor
             // 
             labelPanqValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelPanqValor.AutoSize = true;
             labelPanqValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelPanqValor.Location = new Point(119, 19);
             labelPanqValor.Name = "labelPanqValor";
             labelPanqValor.Size = new Size(66, 18);
             labelPanqValor.TabIndex = 1;
-            labelPanqValor.Text = "0.50000";
+            labelPanqValor.Text = "0.00000";
             // 
             // labelPanq
             // 
             labelPanq.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelPanq.AutoSize = true;
             labelPanq.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPanq.Location = new Point(42, 11);
+            labelPanq.Location = new Point(56, 11);
             labelPanq.Name = "labelPanq";
             labelPanq.Size = new Size(71, 29);
             labelPanq.TabIndex = 0;
@@ -606,7 +601,7 @@
             groupBox6.Controls.Add(labelPansDescripcion);
             groupBox6.Controls.Add(labelPansValor);
             groupBox6.Controls.Add(labelPans);
-            groupBox6.Location = new Point(35, 232);
+            groupBox6.Location = new Point(35, 220);
             groupBox6.Name = "groupBox6";
             groupBox6.Size = new Size(250, 80);
             groupBox6.TabIndex = 4;
@@ -626,20 +621,19 @@
             // labelPansValor
             // 
             labelPansValor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            labelPansValor.AutoSize = true;
             labelPansValor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelPansValor.Location = new Point(119, 19);
             labelPansValor.Name = "labelPansValor";
             labelPansValor.Size = new Size(66, 18);
             labelPansValor.TabIndex = 1;
-            labelPansValor.Text = "0.50000";
+            labelPansValor.Text = "0.00000";
             // 
             // labelPans
             // 
             labelPans.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelPans.AutoSize = true;
             labelPans.Font = new Font("Calibri", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPans.Location = new Point(45, 11);
+            labelPans.Location = new Point(58, 11);
             labelPans.Name = "labelPans";
             labelPans.Size = new Size(68, 29);
             labelPans.TabIndex = 0;
@@ -659,7 +653,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1184, 536);
+            ClientSize = new Size(863, 510);
             Controls.Add(panelResultados);
             Controls.Add(panelMM1);
             Name = "mdMM1";

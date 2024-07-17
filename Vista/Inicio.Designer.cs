@@ -75,6 +75,7 @@
             mM2ToolStripMenuItem.Name = "mM2ToolStripMenuItem";
             mM2ToolStripMenuItem.Size = new Size(329, 37);
             mM2ToolStripMenuItem.Text = "M/M/1/N";
+            mM2ToolStripMenuItem.Click += mM2ToolStripMenuItem_Click;
             // 
             // mM2ToolStripMenuItem1
             // 

@@ -21,3 +21,5 @@ D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaC
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.pdb
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.genruntimeconfig.cache
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\ref\Vista.dll
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.sourcelink.json
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.mdMM1N.resources
