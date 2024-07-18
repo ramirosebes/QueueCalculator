@@ -9,14 +9,15 @@ namespace Controladora
 {
     public class CC_MM1N
     {
-        private Modelo.MM1N MM1N = new Modelo.MM1N(0, 0, 0);
+        private Modelo.MM1N MM1N = new Modelo.MM1N(0, 0, 0, 0);
 
-        public CC_MM1N(double lambda, double mu, int n)
+        public CC_MM1N(double Lambda, double Mu, double M, double N)
         {
-            MM1N.Lambda = lambda;
-            MM1N.Mu = mu;
-            MM1N.N = n;
-            MM1N.Ro = lambda / mu;
+            MM1N.Lambda = Lambda;
+            MM1N.Mu = Mu;
+            MM1N.M = M;
+            MM1N.N = N;
+            MM1N.Ro = Lambda / Mu;
         }
 
         public double CalcularLambdaEfectiva()
@@ -30,7 +31,7 @@ namespace Controladora
         public double CalcularPb()
         {
            //MM1N.Pb = Math.Pow(MM1N.Ro, MM1N.N) * (1 - MM1N.Ro);
-           MM1N.Pb = (Math.Pow(MM1N.Ro, MM1N.N) * (1 - MM1N.Ro)) / (1 - Math.Pow(MM1N.Ro, MM1N.N + 1));
+           MM1N.Pb = (Math.Pow(MM1N.Ro, MM1N.M) * (1 - MM1N.Ro)) / (1 - Math.Pow(MM1N.Ro, MM1N.M + 1));
            return MM1N.Pb;
         }
 
@@ -39,6 +40,14 @@ namespace Controladora
             double Pb = CalcularPb();
             MM1N.Tau = MM1N.Lambda * Pb;
             return MM1N.Tau;
+        }
+
+        public double CalcularTauEfectivo()
+        {
+            double LambdaEfectiva = CalcularLambdaEfectiva();
+            double Pb = CalcularPb();
+            MM1N.TauEfectivo = LambdaEfectiva * Pb;
+            return MM1N.TauEfectivo;
         }
 
         public double CalcularTauEntrada()
@@ -57,7 +66,7 @@ namespace Controladora
 
         public double CalcularP0()
         {
-            MM1N.P0 = (1 - MM1N.Ro) / (1 - Math.Pow(MM1N.Ro, MM1N.N + 1));
+            MM1N.P0 = (1 - MM1N.Ro) / (1 - Math.Pow(MM1N.Ro, MM1N.M + 1));
             return MM1N.P0;
         }
 
@@ -78,13 +87,13 @@ namespace Controladora
         {
             if (MM1N.Ro == 1)
             {
-                MM1N.Ls = MM1N.N / 2;
+                MM1N.Ls = MM1N.M / 2;
             }
             else if (MM1N.Ro != 1)
             {
                 double PrimerTermino = MM1N.Ro / (1 - MM1N.Ro);
-                double SegundoTerminoNumerador = (MM1N.N + 1) * Math.Pow(MM1N.Ro, MM1N.N + 1);
-                double SegundoTerminoDenominador = (1 - Math.Pow(MM1N.Ro, MM1N.N + 1));
+                double SegundoTerminoNumerador = (MM1N.M + 1) * Math.Pow(MM1N.Ro, MM1N.M + 1);
+                double SegundoTerminoDenominador = (1 - Math.Pow(MM1N.Ro, MM1N.M + 1));
                 double SegundoTermino = SegundoTerminoNumerador / SegundoTerminoDenominador;
                 MM1N.Ls = PrimerTermino - SegundoTermino;
             }
@@ -96,14 +105,14 @@ namespace Controladora
         {
             if (MM1N.Ro == 1)
             {
-                //MM1N.Lq = MM1N.N / 2;
-                MM1N.Lq = (MM1N.N * (MM1N.N - 1)) / (2 * (MM1N.N + 1));
+                //MM1N.Lq = MM1N.M / 2;
+                MM1N.Lq = (MM1N.M * (MM1N.M - 1)) / (2 * (MM1N.M + 1));
             }
             else if (MM1N.Ro != 1)
             {
                 double Ls = CalcularLs();
-                double SegundoTerminoNumerador = (1 - Math.Pow(MM1N.Ro, MM1N.N)) * MM1N.Ro;
-                double SegundoTerminoDenominador = 1 - Math.Pow(MM1N.Ro, MM1N.N + 1);
+                double SegundoTerminoNumerador = (1 - Math.Pow(MM1N.Ro, MM1N.M)) * MM1N.Ro;
+                double SegundoTerminoDenominador = 1 - Math.Pow(MM1N.Ro, MM1N.M + 1);
                 double SegundoTermino = SegundoTerminoNumerador / SegundoTerminoDenominador;
                 MM1N.Lq = Ls - SegundoTermino;
             }
