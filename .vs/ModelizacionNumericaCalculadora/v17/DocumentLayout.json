@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\controladora\\cc_mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|solutionrelative:controladora\\cc_mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\controladora\\cc_mm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|solutionrelative:controladora\\cc_mm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\modales\\mdmm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\modales\\mdmm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\modelo\\mm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|solutionrelative:modelo\\mm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\modales\\mdmm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\modales\\mdmm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\modelo\\mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|solutionrelative:modelo\\mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\modales\\mdmm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\modales\\mdmm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\modelo\\mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|solutionrelative:modelo\\mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\modales\\mdmm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\modales\\mdmm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\controladora\\cc_mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|solutionrelative:controladora\\cc_mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,60 +25,39 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 151,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 186,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MM1N.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MM1N.cs",
-              "RelativeDocumentMoniker": "Modelo\\MM1N.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MM1N.cs",
-              "RelativeToolTip": "Modelo\\MM1N.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwDAAAAAlAAAA",
+              "DocumentIndex": 3,
+              "Title": "CC_MM1.cs",
+              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MM1.cs",
+              "RelativeDocumentMoniker": "Controladora\\CC_MM1.cs",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MM1.cs",
+              "RelativeToolTip": "Controladora\\CC_MM1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T18:52:31.592Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-07-19T19:33:45.775Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 189,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CC_MM1N.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MM1N.cs",
-              "RelativeDocumentMoniker": "Controladora\\CC_MM1N.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MM1N.cs",
-              "RelativeToolTip": "Controladora\\CC_MM1N.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAewFwAAAAMAAAA",
+              "Title": "CC_MM2.cs",
+              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MM2.cs",
+              "RelativeDocumentMoniker": "Controladora\\CC_MM2.cs",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MM2.cs",
+              "RelativeToolTip": "Controladora\\CC_MM2.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAJkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:01:55.152Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "mdMM1N.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1N.cs",
-              "RelativeDocumentMoniker": "Vista\\Modales\\mdMM1N.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1N.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Modales\\mdMM1N.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T13:50:11.273Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mdMM1N.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1N.cs",
-              "RelativeDocumentMoniker": "Vista\\Modales\\mdMM1N.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1N.cs",
-              "RelativeToolTip": "Vista\\Modales\\mdMM1N.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwDAAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T13:53:14.762Z",
+              "WhenOpened": "2024-07-19T19:33:17.064Z",
               "EditorCaption": ""
             }
           ]
@@ -97,44 +68,49 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "7820a941-30f2-44d1-898a-f072ee48792f",
+        "Id": "e8611479-25b9-495f-ae1e-a3cb1b0e3580",
         "Display": 2,
-        "X": -170,
-        "Y": 127,
-        "Width": 1579,
+        "X": 377,
+        "Y": 224,
+        "Width": 960,
         "Height": 965,
-        "WindowState": 0
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "mdMM1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1.cs",
-              "RelativeDocumentMoniker": "Vista\\Modales\\mdMM1.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Modales\\mdMM1.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "MM1.cs",
+              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MM1.cs",
+              "RelativeDocumentMoniker": "Modelo\\MM1.cs",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MM1.cs",
+              "RelativeToolTip": "Modelo\\MM1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T14:28:58.755Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
+              "WhenOpened": "2024-07-19T19:25:24.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "mdMM1.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1.cs",
-              "RelativeDocumentMoniker": "Vista\\Modales\\mdMM1.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Modales\\mdMM1.cs",
-              "RelativeToolTip": "Vista\\Modales\\mdMM1.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAA8AAAA",
+              "Title": "MM2.cs",
+              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MM2.cs",
+              "RelativeDocumentMoniker": "Modelo\\MM2.cs",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MM2.cs",
+              "RelativeToolTip": "Modelo\\MM2.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T14:29:08.945Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-07-19T19:13:30.491Z",
               "EditorCaption": ""
             }
           ]
