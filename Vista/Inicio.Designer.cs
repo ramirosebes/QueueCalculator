@@ -28,67 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            contextMenuStrip1 = new ContextMenuStrip(components);
-            contextMenuStrip2 = new ContextMenuStrip(components);
             menuStrip1 = new MenuStrip();
-            mM1ToolStripMenuItem = new ToolStripMenuItem();
-            mM2ToolStripMenuItem = new ToolStripMenuItem();
-            mM2ToolStripMenuItem1 = new ToolStripMenuItem();
+            menuMM1 = new ToolStripMenuItem();
+            menuMM1N = new ToolStripMenuItem();
+            menuMM2 = new ToolStripMenuItem();
+            menuMG1_MD1 = new ToolStripMenuItem();
+            menuMMP = new ToolStripMenuItem();
+            panelContenedor = new Panel();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
-            // 
-            // contextMenuStrip2
-            // 
-            contextMenuStrip2.Name = "contextMenuStrip2";
-            contextMenuStrip2.Size = new Size(61, 4);
-            // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = Color.FromArgb(64, 64, 64);
             menuStrip1.BackgroundImageLayout = ImageLayout.None;
-            menuStrip1.Dock = DockStyle.Fill;
             menuStrip1.Font = new Font("Bahnschrift Condensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { mM1ToolStripMenuItem, mM2ToolStripMenuItem, mM2ToolStripMenuItem1 });
-            menuStrip1.LayoutStyle = ToolStripLayoutStyle.VerticalStackWithOverflow;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { menuMM1, menuMM1N, menuMM2, menuMG1_MD1, menuMMP });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(336, 537);
+            menuStrip1.Size = new Size(949, 33);
             menuStrip1.TabIndex = 4;
             menuStrip1.Text = "menuStrip3";
             // 
-            // mM1ToolStripMenuItem
+            // menuMM1
             // 
-            mM1ToolStripMenuItem.Font = new Font("Bahnschrift Condensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            mM1ToolStripMenuItem.Name = "mM1ToolStripMenuItem";
-            mM1ToolStripMenuItem.Size = new Size(329, 37);
-            mM1ToolStripMenuItem.Text = "M/M/1";
-            mM1ToolStripMenuItem.Click += mM1ToolStripMenuItem_Click;
+            menuMM1.Font = new Font("Bahnschrift Condensed", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            menuMM1.ForeColor = SystemColors.ControlLightLight;
+            menuMM1.Name = "menuMM1";
+            menuMM1.Size = new Size(67, 29);
+            menuMM1.Text = "M/M/1";
+            menuMM1.Click += mM1ToolStripMenuItem_Click;
             // 
-            // mM2ToolStripMenuItem
+            // menuMM1N
             // 
-            mM2ToolStripMenuItem.Font = new Font("Bahnschrift Condensed", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            mM2ToolStripMenuItem.Name = "mM2ToolStripMenuItem";
-            mM2ToolStripMenuItem.Size = new Size(329, 37);
-            mM2ToolStripMenuItem.Text = "M/M/1/N";
-            mM2ToolStripMenuItem.Click += mM2ToolStripMenuItem_Click;
+            menuMM1N.Font = new Font("Bahnschrift Condensed", 15.75F);
+            menuMM1N.ForeColor = SystemColors.ControlLightLight;
+            menuMM1N.Name = "menuMM1N";
+            menuMM1N.Size = new Size(82, 29);
+            menuMM1N.Text = "M/M/1/N";
+            menuMM1N.Click += mM2ToolStripMenuItem_Click;
             // 
-            // mM2ToolStripMenuItem1
+            // menuMM2
             // 
-            mM2ToolStripMenuItem1.Name = "mM2ToolStripMenuItem1";
-            mM2ToolStripMenuItem1.Size = new Size(329, 37);
-            mM2ToolStripMenuItem1.Text = "M/M/2";
+            menuMM2.Font = new Font("Bahnschrift Condensed", 15.75F);
+            menuMM2.ForeColor = SystemColors.ControlLightLight;
+            menuMM2.Name = "menuMM2";
+            menuMM2.Size = new Size(68, 29);
+            menuMM2.Text = "M/M/2";
+            menuMM2.Click += mM2ToolStripMenuItem1_Click;
+            // 
+            // menuMG1_MD1
+            // 
+            menuMG1_MD1.Font = new Font("Bahnschrift Condensed", 15.75F);
+            menuMG1_MD1.ForeColor = SystemColors.ControlLightLight;
+            menuMG1_MD1.Name = "menuMG1_MD1";
+            menuMG1_MD1.Size = new Size(121, 29);
+            menuMG1_MD1.Text = "M/G/1 - M/D/1";
+            menuMG1_MD1.Click += mG1MD1ToolStripMenuItem_Click;
+            // 
+            // menuMMP
+            // 
+            menuMMP.Font = new Font("Bahnschrift Condensed", 15.75F);
+            menuMMP.ForeColor = SystemColors.ControlLightLight;
+            menuMMP.Name = "menuMMP";
+            menuMMP.Size = new Size(69, 29);
+            menuMMP.Text = "M/M/P";
+            menuMMP.Click += menuMMP_Click;
+            // 
+            // panelContenedor
+            // 
+            panelContenedor.BackColor = SystemColors.ControlLightLight;
+            panelContenedor.Dock = DockStyle.Fill;
+            panelContenedor.Location = new Point(0, 33);
+            panelContenedor.Name = "panelContenedor";
+            panelContenedor.Size = new Size(949, 524);
+            panelContenedor.TabIndex = 5;
             // 
             // Inicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(336, 537);
+            ClientSize = new Size(949, 557);
+            Controls.Add(panelContenedor);
             Controls.Add(menuStrip1);
             Name = "Inicio";
             StartPosition = FormStartPosition.CenterScreen;
@@ -101,12 +123,12 @@
         }
 
         #endregion
-
-        private ContextMenuStrip contextMenuStrip1;
-        private ContextMenuStrip contextMenuStrip2;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem mM1ToolStripMenuItem;
-        private ToolStripMenuItem mM2ToolStripMenuItem;
-        private ToolStripMenuItem mM2ToolStripMenuItem1;
+        private ToolStripMenuItem menuMM1;
+        private ToolStripMenuItem menuMM1N;
+        private ToolStripMenuItem menuMM2;
+        private ToolStripMenuItem menuMG1_MD1;
+        private ToolStripMenuItem menuMMP;
+        private Panel panelContenedor;
     }
 }

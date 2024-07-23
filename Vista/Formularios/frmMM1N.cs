@@ -14,9 +14,9 @@ using Modelo;
 
 namespace Vista.Modales
 {
-    public partial class mdMM1N : Form
+    public partial class frmMM1N : Form
     {
-        public mdMM1N()
+        public frmMM1N()
         {
             InitializeComponent();
         }

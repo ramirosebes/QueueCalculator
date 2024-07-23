@@ -12,9 +12,9 @@ using Controladora;
 
 namespace Vista.Modales
 {
-    public partial class mdMM1 : Form
+    public partial class frmMM1 : Form
     {
-        public mdMM1()
+        public frmMM1()
         {
             InitializeComponent();
         }

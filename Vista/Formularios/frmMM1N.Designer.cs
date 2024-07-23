@@ -1,6 +1,6 @@
 ﻿namespace Vista.Modales
 {
-    partial class mdMM1N
+    partial class frmMM1N
     {
         /// <summary>
         /// Required designer variable.

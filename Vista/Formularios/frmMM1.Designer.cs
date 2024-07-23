@@ -1,6 +1,6 @@
 ﻿namespace Vista.Modales
 {
-    partial class mdMM1
+    partial class frmMM1
     {
         /// <summary>
         /// Required designer variable.
@@ -321,7 +321,7 @@
             // 
             labelP0Valor.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelP0Valor.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelP0Valor.Location = new Point(115, 19);
+            labelP0Valor.Location = new Point(119, 19);
             labelP0Valor.Name = "labelP0Valor";
             labelP0Valor.Size = new Size(66, 18);
             labelP0Valor.TabIndex = 1;

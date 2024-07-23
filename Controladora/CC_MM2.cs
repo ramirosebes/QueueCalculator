@@ -27,19 +27,20 @@ namespace Controladora
             return MM2.Ro;
         }
 
-        public double CalcularAPrima()
-        {
-            double Numerador = (2 * MM2.Lambda + (MM2.Mu1 + MM2.Mu2)) * (MM2.Mu1 + MM2.Mu2);
-            double Denominador = (MM2.Mu1 + MM2.Mu2) * (MM2.Lambda * MM2.Mu2);
-            MM2.APrima = Numerador / Denominador;
-            return MM2.APrima;
-        }
-
         public double CalcularA()
-        {
-            double Numerador = (2 * MM2.Mu1 * MM2.Mu2);
-            double Denomiador = (MM2.Mu1 + MM2.Mu2);
-            MM2.A = Numerador / Denomiador;
+        {  
+            if (MM2.Seleccion == true)
+            {
+                double Numerador = (2 * MM2.Lambda + (MM2.Mu1 + MM2.Mu2)) * (MM2.Mu1 + MM2.Mu2);
+                double Denominador = (MM2.Mu1 + MM2.Mu2) * (MM2.Lambda * MM2.Mu2);
+                MM2.APrima = Numerador / Denominador;
+            }
+            else
+            {
+                double Numerador = (2 * MM2.Mu1 * MM2.Mu2);
+                double Denomiador = (MM2.Mu1 + MM2.Mu2);
+                MM2.A = Numerador / Denomiador;
+            }
             return MM2.A;
         }
 
@@ -53,7 +54,7 @@ namespace Controladora
             {
                 if (MM2.Seleccion == true)
                 {
-                    double Aprima = CalcularAPrima();
+                    double Aprima = CalcularA();
                     double Numerador = 1 - MM2.Ro;
                     double Denominador = 1 - MM2.Ro + (MM2.Lambda / Aprima);
                     MM2.P0 = Numerador / Denominador;
@@ -86,7 +87,7 @@ namespace Controladora
             {
                 if (MM2.Seleccion == true)
                 {
-                    double APrima = CalcularAPrima();
+                    double APrima = CalcularA();
                     double Numerador = MM2.Lambda;
                     double Denominador = (1 - MM2.Ro) * (MM2.Lambda + (1 - MM2.Ro) * APrima);
                     MM2.Ls = Numerador / Denominador;
@@ -140,17 +141,18 @@ namespace Controladora
         {
             double R = CalcularR();
 
-            MM2.Pc = 1 - (R * ((1 + R) / (1 + Math.Pow(R, 2))));
-            MM2.Pc2 = (1 + Math.Pow(R, 2)) - MM2.Pc * (2 + Math.Pow(R, 2 )) - (2 * R - 1) * (1 + R);
+            double Pc = 1 - (R * ((1 + R) / (1 + Math.Pow(R, 2))));
 
             if (MM2.Seleccion == true)
             {
-                return MM2.Pc2;
+                MM2.Pc = Pc;
             }
             else
             {
-                return MM2.Pc;
+                MM2.Pc2 = (1 + Math.Pow(R, 2)) - Pc * (2 + Math.Pow(R, 2)) - (2 * R - 1) * (1 + R);
             }
+
+            return MM2.Pc;
         }
     }
 }

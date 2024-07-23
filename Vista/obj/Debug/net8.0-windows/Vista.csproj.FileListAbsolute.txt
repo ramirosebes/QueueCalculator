@@ -9,7 +9,6 @@ D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaC
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\bin\Debug\net8.0-windows\Modelo.pdb
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.csproj.AssemblyReference.cache
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Inicio.resources
-D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.mdMM1.resources
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.csproj.GenerateResource.cache
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.GeneratedMSBuildEditorConfig.editorconfig
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.AssemblyInfoInputs.cache
@@ -22,4 +21,8 @@ D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaC
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.genruntimeconfig.cache
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\ref\Vista.dll
 D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.sourcelink.json
-D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.mdMM1N.resources
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.frmMG1MD1.resources
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.frmMM1.resources
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.frmMM1N.resources
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Modales.frmMM2.resources
+D:\PersonalFolder\PersonalDesktop\Programacion\Universidad\ModelizacionNumericaCalculadora\Vista\obj\Debug\net8.0-windows\Vista.Formularios.frmMMP.resources
