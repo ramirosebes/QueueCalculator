@@ -128,6 +128,7 @@
             comboBoxSeleccion.Size = new Size(250, 30);
             comboBoxSeleccion.TabIndex = 5;
             comboBoxSeleccion.SelectedIndexChanged += comboBoxSeleccion_SelectedIndexChanged;
+            comboBoxSeleccion.KeyDown += comboBoxSeleccion_KeyDown;
             // 
             // labelSeleccion
             // 
@@ -156,6 +157,7 @@
             textBoxMu2.Name = "textBoxMu2";
             textBoxMu2.Size = new Size(250, 29);
             textBoxMu2.TabIndex = 3;
+            textBoxMu2.KeyDown += textBoxMu2_KeyDown;
             // 
             // labelClientes
             // 
@@ -174,6 +176,7 @@
             textBoxN.Name = "textBoxN";
             textBoxN.Size = new Size(250, 29);
             textBoxN.TabIndex = 4;
+            textBoxN.KeyDown += textBoxN_KeyDown;
             // 
             // labelMu1
             // 
@@ -192,6 +195,7 @@
             textBoxMu1.Name = "textBoxMu1";
             textBoxMu1.Size = new Size(250, 29);
             textBoxMu1.TabIndex = 2;
+            textBoxMu1.KeyDown += textBoxMu1_KeyDown;
             // 
             // buttonCalcular
             // 
@@ -235,6 +239,7 @@
             textBoxLambda.Name = "textBoxLambda";
             textBoxLambda.Size = new Size(250, 29);
             textBoxLambda.TabIndex = 1;
+            textBoxLambda.KeyDown += textBoxLambda_KeyDown;
             // 
             // labelResultados
             // 
@@ -696,15 +701,15 @@
             labelWs.TabIndex = 0;
             labelWs.Text = "Ws:";
             // 
-            // mdMM2
+            // frmMM2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(863, 510);
             Controls.Add(panelResultados);
             Controls.Add(panelMM1);
-            Name = "mdMM2";
-            Text = "mdMM2";
+            Name = "frmMM2";
+            Text = " ";
             Load += mdMM2_Load;
             panelMM1.ResumeLayout(false);
             panelMM1.PerformLayout();

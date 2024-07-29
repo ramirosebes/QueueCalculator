@@ -127,6 +127,7 @@
             textBoxN.Name = "textBoxN";
             textBoxN.Size = new Size(250, 29);
             textBoxN.TabIndex = 3;
+            textBoxN.KeyDown += textBoxN_KeyDown;
             // 
             // labelMu
             // 
@@ -145,6 +146,7 @@
             textBoxMu.Name = "textBoxMu";
             textBoxMu.Size = new Size(250, 29);
             textBoxMu.TabIndex = 2;
+            textBoxMu.KeyDown += textBoxMu_KeyDown;
             // 
             // buttonCalcular
             // 
@@ -188,6 +190,7 @@
             textBoxLambda.Name = "textBoxLambda";
             textBoxLambda.Size = new Size(250, 29);
             textBoxLambda.TabIndex = 1;
+            textBoxLambda.KeyDown += textBoxLambda_KeyDown;
             // 
             // panelResultados
             // 
@@ -649,14 +652,14 @@
             labelResultados.TabIndex = 0;
             labelResultados.Text = "Resultados";
             // 
-            // mdMM1
+            // frmMM1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(863, 510);
             Controls.Add(panelResultados);
             Controls.Add(panelMM1);
-            Name = "mdMM1";
+            Name = "frmMM1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "mdMM1";
             panelMM1.ResumeLayout(false);

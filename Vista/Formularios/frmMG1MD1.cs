@@ -51,6 +51,43 @@ namespace Vista.Modales
             labelLqValor.Text = MG1_MG1.CalcularLq(double.Parse(textBoxSigma.Text), SigmaBool).ToString();
             labelWsValor.Text = MG1_MG1.CalcularWs(double.Parse(textBoxSigma.Text), SigmaBool).ToString();
             labelWqValor.Text = MG1_MG1.CalcularWq(double.Parse(textBoxSigma.Text), SigmaBool).ToString();
+
+            textBoxLambda.Focus();
+            textBoxLambda.SelectAll();
+        }
+
+        private void textBoxLambda_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxMu.Select();
+                textBoxMu.SelectAll();
+            }
+        }
+
+        private void textBoxMu_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                checkBoxSigma.Select();
+            }
+        }
+
+        private void checkBoxSigma_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxSigma.Select();
+                textBoxSigma.SelectAll();
+            }
+        }
+
+        private void textBoxSigma_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                buttonCalcular_Click(sender, e);
+            }
         }
     }
 }

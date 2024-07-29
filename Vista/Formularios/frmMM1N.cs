@@ -56,6 +56,44 @@ namespace Vista.Modales
             labelPanqValor.Text = mm1n.CalcularPanq().ToString();
             labelPanqDescripcion.Text = "Probabilidad de hallar al menos " + textBoxN.Text + " clientes en la cola";
             labelLsValor.Text = mm1n.CalcularLs().ToString();
+
+            textBoxLambda.Focus();
+            textBoxLambda.SelectAll();
+        }
+
+        private void textBoxLambda_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxMu.Select();
+                textBoxMu.SelectAll();
+            }
+        }
+
+        private void textBoxMu_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxM.Select();
+                textBoxM.SelectAll();
+            }
+        }
+
+        private void textBoxM_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxN.Select();
+                textBoxN.SelectAll();
+            }
+        }
+
+        private void textBoxN_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                buttonCalcular_Click(sender, e);
+            }
         }
     }
 }

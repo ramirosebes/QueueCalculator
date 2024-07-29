@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\controladora\\cc_mg1md1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|solutionrelative:controladora\\cc_mg1md1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\formularios\\frmmmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\formularios\\frmmmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\formularios\\frmmmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\formularios\\frmmmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\controladora\\cc_mmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C547554-FE77-41F5-B496-E0066480910B}|Controladora\\Controladora.csproj|solutionrelative:controladora\\cc_mmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\modelo\\mmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C385836C-B8A0-4503-9132-1B008583EF21}|Modelo\\Modelo.csproj|solutionrelative:modelo\\mmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\formularios\\frmmg1md1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\formularios\\frmmg1md1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MMP.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MMP.cs",
-              "RelativeDocumentMoniker": "Modelo\\MMP.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Modelo\\MMP.cs",
-              "RelativeToolTip": "Modelo\\MMP.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:37:38.056Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CC_MMP.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MMP.cs",
-              "RelativeDocumentMoniker": "Controladora\\CC_MMP.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MMP.cs",
-              "RelativeToolTip": "Controladora\\CC_MMP.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:37:39.659Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMMP.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMMP.cs",
-              "RelativeDocumentMoniker": "Vista\\Formularios\\frmMMP.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMMP.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Formularios\\frmMMP.cs [Dise\u00F1o]",
+              "Title": "frmMG1MD1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMG1MD1.cs",
+              "RelativeDocumentMoniker": "Vista\\Formularios\\frmMG1MD1.cs",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMG1MD1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vista\\Formularios\\frmMG1MD1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:43:53.896Z",
+              "WhenOpened": "2024-07-28T23:01:54.503Z",
               "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMMP.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMMP.cs",
-              "RelativeDocumentMoniker": "Vista\\Formularios\\frmMMP.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMMP.cs",
-              "RelativeToolTip": "Vista\\Formularios\\frmMMP.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:44:38.98Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Inicio.cs",
-              "RelativeDocumentMoniker": "Vista\\Inicio.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Inicio.cs",
-              "RelativeToolTip": "Vista\\Inicio.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAnwF4AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:06:33.607Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Inicio.cs",
-              "RelativeDocumentMoniker": "Vista\\Inicio.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Inicio.cs [Dise\u00F1o]",
+              "Title": "CC_MG1MD1.cs",
+              "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MG1MD1.cs",
+              "RelativeDocumentMoniker": "Controladora\\CC_MG1MD1.cs",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Controladora\\CC_MG1MD1.cs",
+              "RelativeToolTip": "Controladora\\CC_MG1MD1.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:05:42.861Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-29T00:49:54.026Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             }
           ]
         }

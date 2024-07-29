@@ -97,6 +97,7 @@
             textBoxTs1.Name = "textBoxTs1";
             textBoxTs1.Size = new Size(250, 26);
             textBoxTs1.TabIndex = 3;
+            textBoxTs1.KeyDown += textBoxTs1_KeyDown;
             // 
             // labelMu
             // 
@@ -115,6 +116,7 @@
             textBoxQ1.Name = "textBoxQ1";
             textBoxQ1.Size = new Size(250, 26);
             textBoxQ1.TabIndex = 2;
+            textBoxQ1.KeyDown += textBoxQ1_KeyDown;
             // 
             // buttonCalcular
             // 
@@ -158,6 +160,7 @@
             textBoxW0.Name = "textBoxW0";
             textBoxW0.Size = new Size(250, 26);
             textBoxW0.TabIndex = 1;
+            textBoxW0.KeyDown += textBoxW0_KeyDown;
             // 
             // labelWq1
             // 

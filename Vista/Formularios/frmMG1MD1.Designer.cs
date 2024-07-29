@@ -327,6 +327,7 @@
             checkBoxSigma.Text = "Proporcionar varianza";
             checkBoxSigma.UseVisualStyleBackColor = true;
             checkBoxSigma.CheckedChanged += checkBoxSigma_CheckedChanged;
+            checkBoxSigma.KeyDown += checkBoxSigma_KeyDown;
             // 
             // labelSigmaIngresar
             // 
@@ -347,6 +348,7 @@
             textBoxSigma.Size = new Size(250, 26);
             textBoxSigma.TabIndex = 3;
             textBoxSigma.Text = "0";
+            textBoxSigma.KeyDown += textBoxSigma_KeyDown;
             // 
             // labelMu
             // 
@@ -365,6 +367,7 @@
             textBoxMu.Name = "textBoxMu";
             textBoxMu.Size = new Size(250, 26);
             textBoxMu.TabIndex = 2;
+            textBoxMu.KeyDown += textBoxMu_KeyDown;
             // 
             // buttonCalcular
             // 
@@ -408,6 +411,7 @@
             textBoxLambda.Name = "textBoxLambda";
             textBoxLambda.Size = new Size(250, 26);
             textBoxLambda.TabIndex = 1;
+            textBoxLambda.KeyDown += textBoxLambda_KeyDown;
             // 
             // panelResultados
             // 
@@ -567,14 +571,14 @@
             groupBox9.TabIndex = 9;
             groupBox9.TabStop = false;
             // 
-            // mdMG1MD1
+            // frmMG1MD1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(863, 430);
             Controls.Add(panelMM1);
             Controls.Add(panelResultados);
-            Name = "mdMG1MD1";
+            Name = "frmMG1MD1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "mdMG1MD1";
             Load += mdMG1MD1_Load;

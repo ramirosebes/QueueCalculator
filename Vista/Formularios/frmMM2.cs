@@ -55,6 +55,9 @@ namespace Vista.Modales
             labelRValor.Text = MM2.CalcularR().ToString();
             labelPcValor.Text = MM2.CalcularPc().ToString();
             labelAValor.Text = MM2.CalcularA().ToString();
+
+            textBoxLambda.Focus();
+            textBoxLambda.SelectAll();
         }
 
         private void comboBoxSeleccion_SelectedIndexChanged(object sender, EventArgs e)
@@ -69,6 +72,50 @@ namespace Vista.Modales
             {
                 labelA.Text = "a'";
                 labelPc.Text = "Pc²";
+            }
+        }
+
+        private void textBoxLambda_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxMu1.Select();
+                textBoxMu1.SelectAll();
+            }
+        }
+
+        private void textBoxMu1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxMu2.Select();
+                textBoxMu2.SelectAll();
+            }
+        }
+
+        private void textBoxMu2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxN.Select();
+                textBoxN.SelectAll();
+            }
+        }
+
+        private void textBoxN_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                comboBoxSeleccion.Select();
+                //buttonCalcular_Click(sender, e);
+            }
+        }
+
+        private void comboBoxSeleccion_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                buttonCalcular_Click(sender, e);
             }
         }
     }

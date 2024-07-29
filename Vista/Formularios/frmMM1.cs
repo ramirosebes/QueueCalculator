@@ -42,6 +42,35 @@ namespace Vista.Modales
             labelLqValor.Text = mm1.CalcularLq().ToString();
             labelWsValor.Text = mm1.CalcularWs().ToString();
             labelWqValor.Text = mm1.CalcularWq().ToString();
+
+            textBoxLambda.Focus();
+            textBoxLambda.SelectAll();
+        }
+
+        private void textBoxLambda_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxMu.Select();
+                textBoxMu.SelectAll();
+            }
+        }
+
+        private void textBoxMu_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                textBoxN.Select();
+                textBoxN.SelectAll();
+            }
+        }
+
+        private void textBoxN_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                buttonCalcular_Click(sender, e);
+            }
         }
     }
 }
