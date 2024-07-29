@@ -335,9 +335,9 @@
             labelSigmaIngresar.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelSigmaIngresar.Location = new Point(3, 202);
             labelSigmaIngresar.Name = "labelSigmaIngresar";
-            labelSigmaIngresar.Size = new Size(103, 22);
+            labelSigmaIngresar.Size = new Size(109, 22);
             labelSigmaIngresar.TabIndex = 11;
-            labelSigmaIngresar.Text = "σ Varianza:";
+            labelSigmaIngresar.Text = "σ² Varianza:";
             // 
             // textBoxSigma
             // 

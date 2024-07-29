@@ -29,35 +29,41 @@ namespace Controladora
             return MG1MD1.P0;
         }
 
-        public double CalcularSigma(double Sigma, bool SigmaBool)
+        public double CalcularSigma(double SigmaCuadrado, bool SigmaCuadradoBool)
         {
-            if (SigmaBool == false)
+            if (SigmaCuadradoBool == false)
             {
                 MG1MD1.Sigma = 1 / MG1MD1.Mu;
             }
-            else if (SigmaBool == true)
+            else if (SigmaCuadradoBool == true)
             {
-                MG1MD1.Sigma = Sigma;
+                MG1MD1.Sigma = Math.Sqrt(SigmaCuadrado);
             }
             
             return MG1MD1.Sigma;
         }
 
-        public double CalcularSigmaCuadrado(double SigmaParam, bool SigmaBoolParam)
+        public double CalcularSigmaCuadrado(double SigmaCuadrado, bool SigmaCuadrdadoBool)
         {
-            double Sigma = CalcularSigma(SigmaParam, SigmaBoolParam);
-            //MG1MD1.SigmaCuadrado = 1 / Math.Pow(MG1MD1.Mu, 2);
-            MG1MD1.SigmaCuadrado = Math.Pow(Sigma, 2);
+            if (SigmaCuadrdadoBool == false)
+            {
+                MG1MD1.SigmaCuadrado = 1 / Math.Pow(MG1MD1.Mu, 2);
+            }
+            else if (SigmaCuadrdadoBool == true)
+            {
+                MG1MD1.SigmaCuadrado = SigmaCuadrado;
+            }
+
             return MG1MD1.SigmaCuadrado;
         }
 
-        public double CalcularLq(double SigmaParam, bool SigmaBoolParam) 
+        public double CalcularLq(double SigmaCuadradoParam, bool SigmaCuadradoBoolParam) 
         {
-            double Sigma = CalcularSigma(SigmaParam, SigmaBoolParam);
+            double Sigma = CalcularSigma(SigmaCuadradoParam, SigmaCuadradoBoolParam);
 
             if (Sigma != 0)
             {
-                double SigmaCuadrado = CalcularSigmaCuadrado(SigmaParam, SigmaBoolParam);
+                double SigmaCuadrado = CalcularSigmaCuadrado(SigmaCuadradoParam, SigmaCuadradoBoolParam);
                 double PrimerTermino = Math.Pow(MG1MD1.Lambda, 2);
                 double SegundoTermino = SigmaCuadrado;
                 double TercerTermino = Math.Pow(MG1MD1.Ro, 2);
