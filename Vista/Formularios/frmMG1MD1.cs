@@ -37,6 +37,7 @@ namespace Vista.Modales
             {
                 textBoxSigma.Enabled = false;
                 SigmaBool = false;
+                textBoxSigma.Text = "0";
             }
         }
 

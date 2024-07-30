@@ -28,27 +28,37 @@ namespace Controladora
         }
 
         public double CalcularA()
-        {  
-            if (MM2.Seleccion == true)
+        {
+            if (MM2.Mu1 == MM2.Mu2)
             {
-                double Numerador = (2 * MM2.Lambda + (MM2.Mu1 + MM2.Mu2)) * (MM2.Mu1 + MM2.Mu2);
-                double Denominador = (MM2.Mu1 + MM2.Mu2) * (MM2.Lambda * MM2.Mu2);
-                MM2.APrima = Numerador / Denominador;
+                MM2.A = 0;
+                return MM2.A;
             }
             else
             {
-                double Numerador = (2 * MM2.Mu1 * MM2.Mu2);
-                double Denomiador = (MM2.Mu1 + MM2.Mu2);
-                MM2.A = Numerador / Denomiador;
+                if (MM2.Seleccion == true)
+                {
+                    double Numerador = (2 * MM2.Lambda + (MM2.Mu1 + MM2.Mu2)) * (MM2.Mu1 * MM2.Mu2);
+                    double Denominador = (MM2.Mu1 + MM2.Mu2) * (MM2.Lambda + MM2.Mu2);
+                    MM2.APrima = Numerador / Denominador;
+                    return MM2.APrima;
+                }
+                else
+                {
+                    double Numerador = (2 * MM2.Mu1 * MM2.Mu2);
+                    double Denomiador = (MM2.Mu1 + MM2.Mu2);
+                    MM2.A = Numerador / Denomiador;
+                    return MM2.A;
+                }
             }
-            return MM2.A;
+           
         }
 
         public double CalcularP0()
         {
             if (MM2.Mu1 == MM2.Mu2)
             {
-                MM2.P0 = 1 / (MM2.N + 1);
+                MM2.P0 = 1 - MM2.Ro;
             }
             else
             {
@@ -127,7 +137,8 @@ namespace Controladora
         {
             if (MM2.Seleccion == true) 
             {
-                MM2.R = MM2.Mu1 * MM2.Mu2;
+                //MM2.R = MM2.Mu1 * MM2.Mu2;
+                MM2.R = MM2.Mu1 / MM2.Mu2;
             }
             else
             {

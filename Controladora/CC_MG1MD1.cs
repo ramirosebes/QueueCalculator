@@ -68,7 +68,7 @@ namespace Controladora
                 double SegundoTermino = SigmaCuadrado;
                 double TercerTermino = Math.Pow(MG1MD1.Ro, 2);
                 //double Numerador = (Math.Pow(MG1MD1.Lambda, 2) * SigmaCuadrado * Math.Pow(MG1MD1.Ro, 2));
-                double Numerador = PrimerTermino * SegundoTermino * TercerTermino;
+                double Numerador = (PrimerTermino * SegundoTermino) + TercerTermino;
                 double Denominador = (2 * (1 - MG1MD1.Ro));
                 //MG1MD1.Lq = (Math.Pow(MG1MD1.Lambda, 2) * SigmaCuadrado * Math.Pow(MG1MD1.Ro, 2)) / (2 * (1 - MG1MD1.Ro));
                 MG1MD1.Lq = Numerador / Denominador;

@@ -22,6 +22,7 @@ namespace Vista.Modales
         private void mdMM2_Load(object sender, EventArgs e)
         {
             comboBoxSeleccion.Items.AddRange(new object[] {
+                "-",
                 "Sin seleccion",
                 "Con seleccion",
             });
@@ -44,7 +45,28 @@ namespace Vista.Modales
                 Seleccion = true;
             }
 
-            CC_MM2 MM2 = new Controladora.CC_MM2(double.Parse(textBoxLambda.Text), double.Parse(textBoxMu1.Text), double.Parse(textBoxMu2.Text), int.Parse(textBoxN.Text), Seleccion);
+            if (double.Parse(textBoxMu1.Text) == double.Parse(textBoxMu2.Text))
+            {
+                comboBoxSeleccion.SelectedIndex = 0;
+            }
+
+            if (double.Parse(textBoxMu1.Text) != double.Parse(textBoxMu2.Text) && Seleccion == false)
+            {
+                comboBoxSeleccion.SelectedIndex = 1;
+            }
+            else if (double.Parse(textBoxMu1.Text) != double.Parse(textBoxMu2.Text) && Seleccion == true)
+            {
+                comboBoxSeleccion.SelectedIndex = 2;
+            }
+
+            if (double.Parse(textBoxMu1.Text) < double.Parse(textBoxMu2.Text))
+            {
+                MessageBox.Show("μ1 no puede ser mas chico que μ2", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+
+                CC_MM2 MM2 = new Controladora.CC_MM2(double.Parse(textBoxLambda.Text), double.Parse(textBoxMu1.Text), double.Parse(textBoxMu2.Text), int.Parse(textBoxN.Text), Seleccion);
             labelRoValor.Text = MM2.CalcularRo().ToString();
             labelP0Valor.Text = MM2.CalcularP0().ToString();
             labelPnValor.Text = MM2.CalcularPn().ToString();
@@ -64,14 +86,17 @@ namespace Vista.Modales
         {
             if (comboBoxSeleccion.SelectedItem == "Sin seleccion")
             {
-
-                labelA.Text = "a";
-                labelPc.Text = "Pc";
+                labelA.Text = "a:";
+                labelPc.Text = "Pc:";
             }
             else if (comboBoxSeleccion.SelectedItem == "Con seleccion")
             {
-                labelA.Text = "a'";
+                labelA.Text = "a':";
                 labelPc.Text = "Pc²";
+            }
+            else if (comboBoxSeleccion.SelectedItem == "-")
+            {
+
             }
         }
 

@@ -385,7 +385,7 @@
             groupBox8.Controls.Add(labelLsDescripcion);
             groupBox8.Controls.Add(labelLsValor);
             groupBox8.Controls.Add(labelLs);
-            groupBox8.Location = new Point(35, 306);
+            groupBox8.Location = new Point(35, 220);
             groupBox8.Name = "groupBox8";
             groupBox8.Size = new Size(250, 80);
             groupBox8.TabIndex = 10;
@@ -428,7 +428,7 @@
             groupBox1.Controls.Add(labelLqDescripcion);
             groupBox1.Controls.Add(labelLqValor);
             groupBox1.Controls.Add(labelLq);
-            groupBox1.Location = new Point(291, 306);
+            groupBox1.Location = new Point(291, 220);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(250, 80);
             groupBox1.TabIndex = 11;
@@ -491,7 +491,7 @@
             groupBox2.Controls.Add(labelADescripcion);
             groupBox2.Controls.Add(labelAValor);
             groupBox2.Controls.Add(labelA);
-            groupBox2.Location = new Point(291, 220);
+            groupBox2.Location = new Point(291, 134);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(250, 80);
             groupBox2.TabIndex = 12;
@@ -534,11 +534,12 @@
             groupBox11.Controls.Add(labelRDescripcion);
             groupBox11.Controls.Add(labelRValor);
             groupBox11.Controls.Add(labelR);
-            groupBox11.Location = new Point(35, 220);
+            groupBox11.Location = new Point(35, 392);
             groupBox11.Name = "groupBox11";
             groupBox11.Size = new Size(250, 80);
             groupBox11.TabIndex = 11;
             groupBox11.TabStop = false;
+            groupBox11.Visible = false;
             // 
             // labelRDescripcion
             // 
@@ -577,11 +578,12 @@
             groupBox12.Controls.Add(labelPcDescripcion);
             groupBox12.Controls.Add(labelPcValor);
             groupBox12.Controls.Add(labelPc);
-            groupBox12.Location = new Point(291, 134);
+            groupBox12.Location = new Point(291, 392);
             groupBox12.Name = "groupBox12";
             groupBox12.Size = new Size(250, 80);
             groupBox12.TabIndex = 10;
             groupBox12.TabStop = false;
+            groupBox12.Visible = false;
             // 
             // labelPcDescripcion
             // 
@@ -620,7 +622,7 @@
             groupBox9.Controls.Add(labelWqDescripcion);
             groupBox9.Controls.Add(labelWqValor);
             groupBox9.Controls.Add(labelWq);
-            groupBox9.Location = new Point(291, 392);
+            groupBox9.Location = new Point(291, 306);
             groupBox9.Name = "groupBox9";
             groupBox9.Size = new Size(250, 80);
             groupBox9.TabIndex = 9;
@@ -663,7 +665,7 @@
             groupBox10.Controls.Add(labelWsDescripcion);
             groupBox10.Controls.Add(labelWsValor);
             groupBox10.Controls.Add(labelWs);
-            groupBox10.Location = new Point(35, 392);
+            groupBox10.Location = new Point(35, 306);
             groupBox10.Name = "groupBox10";
             groupBox10.Size = new Size(250, 80);
             groupBox10.TabIndex = 8;
