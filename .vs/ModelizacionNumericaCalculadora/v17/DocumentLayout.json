@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\formularios\\frmmm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|d:\\personalfolder\\personaldesktop\\programacion\\universidad\\modelizacionnumericacalculadora\\vista\\formularios\\frmmm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\vista\\formularios\\frmmm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EB7E3562-B8F1-4820-86E8-C0B00A1F3962}|Vista\\Vista.csproj|solutionrelative:vista\\formularios\\frmmm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,15 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMM2.cs [Dise\u00F1o]",
+              "Title": "frmMM2.cs [Design]",
               "DocumentMoniker": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMM2.cs",
               "RelativeDocumentMoniker": "Vista\\Formularios\\frmMM2.cs",
-              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMM2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vista\\Formularios\\frmMM2.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Universidad\\ModelizacionNumericaCalculadora\\Vista\\Formularios\\frmMM2.cs [Design]",
+              "RelativeToolTip": "Vista\\Formularios\\frmMM2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T01:58:14.922Z",
               "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
